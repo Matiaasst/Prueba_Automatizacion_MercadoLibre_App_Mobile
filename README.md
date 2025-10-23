@@ -70,11 +70,9 @@ bundle install
 ```bash
 appium
 ```
-*(Mantén esta ventana abierta mientras se ejecutan las pruebas)*
-
 **Ejecutar el test en otra terminal:**
 ```bash
-cucumber
+bundle exec cucumber
 ```
 Esto:
 - Inicia la app de Mercado Libre.  
@@ -125,17 +123,6 @@ PruebaAutomatizacionMobile/
 ├── Gemfile / Gemfile.lock     # Dependencias Ruby
 └── README.md                  # Este archivo
 ```
-
----
-
-## Ejecutar en 3 pasos (resumen corto)
-
-```bash
-bundle install
-appium
-cucumber
-```
-
 ---
 
 ## Solución de problemas comunes
