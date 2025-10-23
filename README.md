@@ -5,11 +5,11 @@ El objetivo es abrir la aplicación, realizar una búsqueda, aplicar filtros y o
 
 ---
 
-## 🧩 Requisitos previos
+## Requisitos previos
 
 Para ejecutar el proyecto, **no es necesario modificar el código**, solo tener las herramientas siguientes instaladas correctamente.
 
-### 💻 En la computadora (Windows 10 o superior recomendado)
+### En la computadora (Windows 10 o superior recomendado)
 
 | Herramienta | Versión recomendada | Propósito |
 |--------------|--------------------|------------|
@@ -25,31 +25,31 @@ Para ejecutar el proyecto, **no es necesario modificar el código**, solo tener 
 
 ## ⚙️ Instalación de dependencias
 
-1️⃣ **Instalar Appium 3 y el driver Android:**
+**Instalar Appium 3 y el driver Android:**
 ```bash
 npm install -g appium
 appium driver install uiautomator2
 ```
 
-2️⃣ **Instalar Bundler (si no lo tienes):**
+**Instalar Bundler (si no lo tienes):**
 ```bash
 gem install bundler
 ```
 
-3️⃣ **Clonar o descomprimir el proyecto:**
+**Clonar o descomprimir el proyecto:**
 ```bash
 git clone https://github.com/TU_USUARIO/PruebaAutomatizacionMobile.git
 cd PruebaAutomatizacionMobile
 ```
 
-4️⃣ **Instalar las gemas Ruby:**
+**Instalar las gemas Ruby:**
 ```bash
 bundle install
 ```
 
 ---
 
-## 📱 Configuración del dispositivo Android
+## Configuración del dispositivo Android
 
 1. Activar las **Opciones de desarrollador** en el teléfono.  
 2. Habilitar **Depuración USB**.  
@@ -60,19 +60,19 @@ bundle install
    ```
    Debe aparecer el ID de tu dispositivo en la lista.
 
-> ⚠️ Asegúrate de tener la app **Mercado Libre** instalada en el teléfono (no es necesario iniciar sesión).
+> Asegúrate de tener la app **Mercado Libre** instalada en el teléfono (no es necesario iniciar sesión).
 
 ---
 
-## 🚀 Ejecución del proyecto
+## Ejecución del proyecto
 
-1️⃣ **Abrir el servidor Appium en una terminal:**
+**Abrir el servidor Appium en una terminal:**
 ```bash
 appium
 ```
 *(Mantén esta ventana abierta mientras se ejecutan las pruebas)*
 
-2️⃣ **Ejecutar el test en otra terminal:**
+**Ejecutar el test en otra terminal:**
 ```bash
 cucumber
 ```
@@ -84,7 +84,7 @@ Esto:
 
 ---
 
-## 🧾 Reportes de ejecución
+## Reportes de ejecución
 
 - Los reportes HTML y JSON se guardan automáticamente en:
   ```
@@ -101,7 +101,7 @@ allure serve target/allure-reports
 
 ---
 
-## ✅ Verificación rápida
+## Verificación rápida
 
 Si todo está correcto:
 - Appium muestra logs en la consola (conexión exitosa).
@@ -110,7 +110,7 @@ Si todo está correcto:
 
 ---
 
-## 🧠 Estructura principal del proyecto
+## Estructura principal del proyecto
 
 ```
 PruebaAutomatizacionMobile/
@@ -128,7 +128,7 @@ PruebaAutomatizacionMobile/
 
 ---
 
-## 👩‍💻 Ejecutar en 3 pasos (resumen corto)
+## Ejecutar en 3 pasos (resumen corto)
 
 ```bash
 bundle install
@@ -138,18 +138,13 @@ cucumber
 
 ---
 
-## 🧰 Solución de problemas comunes
+## Solución de problemas comunes
 
 | Problema | Solución |
 |-----------|-----------|
-| ❌ Appium no se conecta | Verifica que el puerto 4723 no esté ocupado |
-| ❌ No aparece el dispositivo | Revisa la depuración USB o ejecuta `adb devices` |
-| ❌ Error de gemas | Ejecuta `bundle install` nuevamente |
-| ❌ No abre la app | Asegúrate de tener la app de Mercado Libre instalada |
+| Appium no se conecta | Verifica que el puerto 4723 no esté ocupado |
+| No aparece el dispositivo | Revisa la depuración USB o ejecuta `adb devices` |
+| Error de gemas | Ejecuta `bundle install` nuevamente |
+| No abre la app | Asegúrate de tener la app de Mercado Libre instalada |
 
----
 
-## 📚 Créditos
-
-Proyecto desarrollado por **Camila Velázquez Gómez**  
-Automatización móvil con **Ruby + Cucumber + Appium 3**
