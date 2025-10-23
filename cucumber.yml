@@ -1,0 +1,9 @@
+# --- cucumber.yml ---
+default: >-
+  --format pretty
+  --format html --out target/cucumber.html
+  --format json --out target/cucumber.json
+
+allure: >-
+  --format pretty
+  --format allure --out target/allure-reports
